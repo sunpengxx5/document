@@ -17,8 +17,8 @@
 ```
 **Url:http://49.4.4.124:31935/manager-demo/**
 ```
-##**Api 接口详细介绍**
-```
+## **Api 接口详细介绍**
+
 #### 1）、登录接口
 - rest接口：**v1/rest/signIn**
 - 请求类别：post
@@ -246,5 +246,4 @@
     "errCode":"DbService.200",
     "resMsg":"PaySuccess"
  }
-```
 ```
