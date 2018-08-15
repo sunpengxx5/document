@@ -117,7 +117,7 @@
 }
 ```
 #### 5)、商品信息接口
-- rest接口：**v1/rest/userDetail**
+- rest接口：**v1/rest/goodsDetail**
 - 请求类别：get
 - 请求参数：
 ``` text
@@ -127,15 +127,16 @@
 - 返回结果：
 ``` json
 {
-    "errCode":"ManagerService.200",
-    "resMsg":[
-        {
-            "goodsId":1,
-            "goodsName":"milk",
-            "goodsPicturePath":"xxxx",
-            "goodsPrice":2,
-        }
-     ]
+	"errCode": "ManagerService.200",
+	"resMsg": [{
+		"goodsCount": "9988",
+		"goodsDescribe": "None",
+		"goodsId": 1,
+		"goodsName": "Milk",
+		"goodsPicturePath": "xxx",
+		"goodsPrice": 2,
+		"goodsType": "Normal"
+	}]
 }
 ```
 #### 6)、支付接口
@@ -171,30 +172,13 @@
 {
 	"errCode": "ManagerService.200",
 	"resMsg": [{
-			"goodsId": 1,
-			"goodsName": "milk",
-			"goodsPicturePath": "xxxx",
-			"goodsPrice": 2,
-			"ordersDate": "2017-1-11",
-			"ordersId": 1
-		},
-		{
-			"goodsId": 2,
-			"goodsName": "apple",
-			"goodsPicturePath": "xxxx",
-			"goodsPrice": 2,
-			"ordersDate": "2017-1-11",
-			"ordersId": 2
-		},
-		{
-			"goodsId": 3,
-			"goodsName": "meat",
-			"goodsPicturePath": "xxxx",
-			"goodsPrice": 2,
-			"ordersDate": "2017-1-11",
-			"ordersId": 3
-		}
-	]
+		"goodsId": 1,
+		"goodsName": "Milk",
+		"goodsPicturePath": "xxx",
+		"goodsPrice": 2,
+		"ordersDate": "2018-08-15 11:20:15",
+		"ordersId": 46
+	}]
 }
 ```
 #### 8)、抢购接口
@@ -222,7 +206,14 @@
 ``` json
 {
 	"errCode": "ManagerService.200",
-	"resMsg": "Success"
+	"resMsg": [{
+		"goodsId": 5,
+		"goodsName": "Peach",
+		"goodsPicturePath": "xxx",
+		"goodsPrice": 2,
+		"pendingPaymentId": 245,
+		"userId": 24485
+	}]
 }
 ```
 #### 10)、购物车内商品付款
