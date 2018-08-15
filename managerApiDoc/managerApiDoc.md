@@ -1,5 +1,5 @@
 # ***Manager Rest Api 汇总***
-##**Manager Rest Api 目录**
+## **Manager Rest Api 目录**
 - **signIn** -- 登录接口
 - **signUp** -- 注册接口
 - **userDetail** -- 用户信息接口
