@@ -1,6 +1,5 @@
 # ***Manager Rest Api 汇总***
-- 
-##**Manager Rest Api 目录**
+## **Manager Rest Api 目录**
 - **signIn** -- 登录接口
 - **signUp** -- 注册接口
 - **userDetail** -- 用户信息接口
@@ -9,14 +8,16 @@
 - **pay** -- 支付接口
 - **orderList** -- 订单列表接口
 
-##Api接口返回码说明
+## Api接口返回码说明
 ``` text
     成功：ManagerService.200
     失败：ManagerService.400
 ```
-##Api 调用URL前缀
-- **Url:http://49.4.4.124:31935/manager-demo/**
+## Api 调用URL前缀
+**Url:http://49.4.4.124:31935/manager-demo/**
+
 ##Api 接口详细介绍
+
 #### 1）、登录接口
 - rest接口：**v1/rest/signIn**
 - 请求类别：post
