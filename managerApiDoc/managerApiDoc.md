@@ -1,4 +1,5 @@
 # ***Manager Rest Api 汇总***
+```
 ##**Manager Rest Api 目录**
 - **signIn** -- 登录接口
 - **signUp** -- 注册接口
@@ -7,6 +8,7 @@
 - **goodsDetail** -- 商品信息接口
 - **pay** -- 支付接口
 - **orderList** -- 订单列表接口
+```
 ##Api接口返回码说明
 ``` text
     成功：ManagerService.200
