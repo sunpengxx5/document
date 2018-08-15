@@ -1,4 +1,4 @@
-## ***Manager Rest Api 汇总***
+# ***Manager Rest Api 汇总***
 ##**Manager Rest Api 目录**
 - **signIn** -- 登录接口
 - **signUp** -- 注册接口
@@ -10,14 +10,14 @@
 - **rushToBuy** -- 抢购接口
 - **pendingPayment** --获取购物车信息
 - **payPendingPayment** --购物车内商品付款
-##Api接口返回码说明
+## Api接口返回码说明
 ``` text
     成功：ManagerService.200
     失败：ManagerService.400
 ```
-##Api 调用URL前缀
+## Api 调用URL前缀
 - **Url:http://49.4.4.124:31935/manager-demo/**
-##Api 接口详细介绍
+## Api 接口详细介绍
 #### 1）、登录接口
 - rest接口：**v1/rest/signIn**
 - 请求类别：post
@@ -196,7 +196,7 @@
 		}
 	]
 }
-````
+```
 #### 8)、抢购接口
 - rest接口：**v1/rest/rushToBuy**
 - 请求类别：post
