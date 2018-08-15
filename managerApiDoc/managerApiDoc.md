@@ -225,7 +225,14 @@
 ``` json
 {
     "errCode":"ManagerService.200",
-    "resMsg":"Success"
+    "resMsg":[{"goodsId":xxx,
+	           "goodsName":"xxx",
+			   "goodsPicturePath":"xxx",
+			   "goodsPrice":xxx,
+			   "pendingPaymentId":xxx,
+			   "userId":xxx
+			   }
+			   ]
 }
 ```
 #### 10)、购物车内商品付款
