@@ -14,8 +14,9 @@
     失败：ManagerService.400
 ```
 ## Api 调用URL前缀
+```
 **Url:http://49.4.4.124:31935/manager-demo/**
-
+```
 ##**Api 接口详细介绍**
 ```
 #### 1）、登录接口
@@ -245,4 +246,5 @@
     "errCode":"DbService.200",
     "resMsg":"PaySuccess"
  }
+```
 ```
